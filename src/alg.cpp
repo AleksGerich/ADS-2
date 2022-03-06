@@ -31,7 +31,7 @@ double calcItem(double x, uint16_t n) {
 
 double expn(double x, uint16_t count) {
     double sum = 1;
-    for (int i = 1; i < count; i++) {
+    for (int i = 1; i <= count; i++) {
         sum += calcItem(x, i);
     }
     return sum;
